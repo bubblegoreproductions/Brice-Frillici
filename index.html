@@ -31,9 +31,11 @@ h1 {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 25px;
   padding: 60px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .box {
@@ -69,12 +71,12 @@ h1 {
 
 /* Primary Color Palette */
 
-.box01 { background: #e10600; }   /* Red */
-.box02 { background: #0047ab; }   /* Blue */
-.box03 { background: #ffd100; color: #111; } /* Yellow */
-.box04 { background: #008000; }   /* Green */
-.box05 { background: #ff6f00; }   /* Orange */
-.box06 { background: #6a0dad; }   /* Purple */
+.box01 { background: #e10600; }
+.box02 { background: #0047ab; }
+.box03 { background: #ffd100; color: #111; }
+.box04 { background: #008000; }
+.box05 { background: #ff6f00; }
+.box06 { background: #6a0dad; }
 
 /* Modal */
 
@@ -114,7 +116,7 @@ h1 {
 
   <div class="box box01" onclick="openModal()">
     <div class="number">01</div>
-    <div class="label">Kelly Becomes AI Artist</div>
+    <div class="label">old website</div>
   </div>
 
   <div class="box box02">
